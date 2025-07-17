@@ -6,6 +6,7 @@ import {
   Brain, 
   Calendar, 
   Users, 
+  Database,
   Settings,
   Menu,
   X,
@@ -29,6 +30,7 @@ const navigation = [
   { id: 'ai-recommendations', name: 'AI Recommendations', icon: Brain },
   { id: 'forecasting', name: 'Demand Forecasting', icon: Calendar },
   { id: 'competitive', name: 'Competitive Intelligence', icon: Users },
+  { id: 'data-sources', name: 'Data Sources', icon: Database },
   { id: 'settings', name: 'Settings', icon: Settings },
 ]
 

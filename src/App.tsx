@@ -4,6 +4,7 @@ import { AppLayout } from './components/layout/AppLayout'
 import { Dashboard } from './components/pages/Dashboard'
 import { RangeAnalysis } from './components/pages/RangeAnalysis'
 import { AIRecommendations } from './components/pages/AIRecommendations'
+import { DataSources } from './components/pages/DataSources'
 
 // Placeholder components for other pages
 const ProductPerformance = () => (
@@ -98,6 +99,8 @@ function App() {
         return <DemandForecasting />
       case 'competitive':
         return <CompetitiveIntelligence />
+      case 'data-sources':
+        return <DataSources />
       case 'settings':
         return <Settings />
       default:
